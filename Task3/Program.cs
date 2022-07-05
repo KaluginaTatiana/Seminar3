@@ -14,8 +14,6 @@ Console.WriteLine("Расстояние между точками А и В ра�
 
 double Distance(double xa, double ya, double xb, double yb)
 {
-    double distanceX = Math.Abs( xa - xb);
-    double distanceY = Math.Abs( ya - yb);
-    double distance = Math.Round(Math.Sqrt(Math.Pow(distanceX, 2) + Math.Pow(distanceY, 2)), 2);
+    double distance = Math.Round(Math.Sqrt(Math.Pow(xa -xb, 2) + Math.Pow(ya -yb, 2)), 2);
     return distance;
 }
