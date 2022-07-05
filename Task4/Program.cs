@@ -11,12 +11,10 @@ SqrNumbers(n);
 
 void SqrNumbers(double number)
 {
-    int count = 1;
     double sqr = 1;
-    while (count <= number)
+    while (sqr <= number)
     {
         Console.Write(Math.Pow(sqr, 2) + " ");
-        count++;
         sqr++;
     }
     Console.WriteLine(" ");
